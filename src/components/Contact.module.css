@@ -1,0 +1,80 @@
+.contact_us{
+    padding: 5% 0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_us_title{
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 0 5% 0;
+}
+
+.form_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+}
+
+.input_name, .input_phone{
+    height: 40px;
+    padding: 5%;
+    color: #000;
+    font-weight: 500;
+}
+
+.input_message{
+    padding: 5%;
+    height: 100px;
+    color: #000;
+    font-weight: 500;
+}
+
+.btn_upload{
+    background-color: #000;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    border: #000 solid 2px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btn_upload:hover{
+    background-color: #fff;
+    color: #000;
+    border: #000 solid 2px;
+    transition: all 0.5s;
+}
+
+.container_image{
+    width: 100%;
+    display: flex;
+}
+
+.image_person_taxi{
+    width: 100%;
+}
+
+@media screen and (min-width: 576px){
+    .contact_us{
+        padding: 120px 0;
+        width: 928px;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+
+    .form_container{
+        gap: 10px;
+    }
+
+    .contact_us_title{
+        margin: 20px 0;
+    }
+}
